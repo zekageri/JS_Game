@@ -1,0 +1,39 @@
+.player {
+    display: flex;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    overflow: auto;
+    padding: 5px;
+    min-width: 135px;
+}
+
+span.player-name {
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+}
+
+span.player-body {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    box-shadow: rgb(0 0 0 / 36%) 0px 1px 12px;
+}
+
+span.player-hp-wrap {
+    width: 50%;
+}
+
+span.player-hp {
+    background-color: orangered;
+    width: 100%;
+    height: 10px;
+    display: block;
+    border-radius: 0.5em;
+}
